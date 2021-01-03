@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+.needle {
+    position: absolute;
+    bottom: 283px;
+    transform-origin: bottom center;
+}
+#clock {
+    position: relative;
+    height: 567px;
+    width: 567px;
+    border: 1px solid black;
+    border-radius: 284px;
+    background: url('../img/cadran.png');
+}
+
+#sec{
+    left: 283px
+}
+
+#min{
+    left: 278px;
+}
+
+#hours{
+    left: 278px;
+}
+
